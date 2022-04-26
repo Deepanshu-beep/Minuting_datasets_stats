@@ -384,7 +384,7 @@ automin_summary={}
 participants={}
 for file in filelist:
     summs={}
-    if file[8:10]=='en' or file[8:10]=='cs':
+    if file[8:10]=='en':
         f=os.listdir(f'{path}/{file}')
         for ts in f:
             if ts[-4:]!='.txt':
