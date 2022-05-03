@@ -323,7 +323,7 @@ for file in filelist:
                 name=list(ts.split('_'))[2][:8]
                 with open(f'{path}/{file}/{ts}', 'r', encoding='utf8') as f1:
                     txt=f1.read()
-                    automin_transcripts[file[:-3]]=txt
+                    automin_transcripts[file[-3:]]=txt
                     
             if ts[:7]=='minutes':
                 # print(ts)
@@ -334,7 +334,7 @@ for file in filelist:
                 with open(f'{path}/{file}/{ts}', 'r', encoding='utf8') as f2:
                     txt=f2.read()
                     summs[name]=txt
-        automin_summary[file[:-3]]=summs
+        automin_summary[file[-3:]]=summs
 
 (count_small_transcripts_automin, count_big_transcripts_automin, sum_small_transcripts_automin, 
 sum_big_transcripts_automin, position_small_transcripts_automin, position_big_transcripts_automin, 
