@@ -9,7 +9,7 @@ Clone the Github repo from [here](https://github.com/gcunhase/AMICorpusXML.git) 
 Clone the Github repo from [here](https://github.com/saprativa/ICSI.git) for ICSI database.
 
 ## 3. ELITR_Minuting_corpus
-Download the preprocessed ELITR_Minuting_corpus from [here](https://drive.google.com/file/d/12P1Wfl5DUvZoId9zdU5e8CkHQf7FijLS/view?usp=sharing).
+Download the preprocessed ELITR_Minuting_corpus from [here](https://drive.google.com/file/d/1--g0_z0CsTfKK0ocGFIt67ev6XsfERoK/view?usp=sharing).
 
 # Getting graphs.
 Line graphs
